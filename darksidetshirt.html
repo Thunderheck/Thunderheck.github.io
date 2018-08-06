@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+	<head>
+		<meta charset="utf-8">
+		<title>Pink Floyd - Home</title>
+		
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script type="text/javascript" src="js/script.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+		<script src="https://use.fontawesome.com/1dad85df0a.js"></script>
+	</head>
+	
+
+<body>		
+	
+	<header> <!-- z-index 1 -->
+	
+		<h1> Pink Floyd </h1>
+			
+	</header>
+	
+	<nav> <!-- z-index 2 -->
+			<ul>
+				<li>
+					<a class="home" href="index.html">Home</a>
+					<a class="aboutus" href="aboutus.html">About Us</a>
+					<a class="ourmusic" href="ourmusic.html">Our Music</a>
+					<a class="videos" href="videos.html">Videos</a>
+					<a class="store" href="store.html">Store</a>
+				</li>	
+			</ul>
+	</nav>
+	
+	<div class="darksideshirtcont">	
+		<img id="darksidechange" src="assets/blackdarkside.jpg" alt="Dark Side Of The Moon">
+	
+	
+	</div>
+	
+	<div class="storecustomizer" onload="PreloadImages ()">
+		<h2>Dark Side Of The Moon - T Shirt</h2>
+		<p>Taken straight from the Album Art this t-shirt represents one of the most popular selling albums of all time. Avalible in 6 diffrent colours and all sizes stocked.</p>
+		
+			<div class="mizerformat">
+			<button class="customizerbtn black" onClick="whatcolour(0)"></button>
+			<button class="customizerbtn white" onClick="whatcolour(1)"></button>
+			<button class="customizerbtn red" onClick="whatcolour(2)"></button>
+			<button class="customizerbtn green" onClick="whatcolour(4)"></button>
+			<button class="customizerbtn blue" onClick="whatcolour(3)"></button>
+			<button class="customizerbtn yellow" onClick="whatcolour(5)"></button>
+			</div>
+			
+			<div class="mizerformat">
+			<button class="customizersizes" onClick="whatsize(0)">Small</button>
+			<button class="customizersizes" onClick="whatsize(1)">Medium</button>
+			<button class="customizersizes" onClick="whatsize(2)">Large</button>
+			<button class="customizersizes" onClick="whatsize(3)">XL</button>
+			<button class="customizersizes" onClick="whatsize(4)">XXL</button>
+			</div>
+			
+			<h3 id="price">£24.99</h3>
+			
+			<div class="mizerformat">
+			<button class="customizersizes">Buy Now</button>
+			</div>
+	
+	
+	</div>
+	
+	
+	
+	
+	
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+</body>
+</html>

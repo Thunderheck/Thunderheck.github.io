@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+	<head>
+		<meta charset="utf-8">
+		<title>Pink Floyd - Home</title>
+		
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script type="text/javascript" src="js/script.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+		<script src="https://use.fontawesome.com/1dad85df0a.js"></script>	
+	</head>
+	
+
+<body>		
+	
+	<header> <!-- z-index 1 -->
+	
+		<h1> Pink Floyd </h1>
+		
+		<nav> <!-- z-index 2 -->
+			<ul>
+				<li>
+					<a class="home" href="index.html">Home</a>
+					<a class="aboutus" href="aboutus.html">About Us</a>
+					<a class="ourmusic" href="ourmusic.html">Our Music</a>
+					<a class="videos" href="videos.html">Videos</a>
+					<a class="store" href="store.html">Store</a>
+				</li>	
+			</ul>
+		</nav>
+			
+	</header>
+
+	<div id="vid-container"> <!-- z-index -1 -->
+		
+		<div id="vid-overlay">
+			<div id="overlay-text">
+				<h1>Welcome to the official Pink Floyd site</h1>
+		
+				<a href="aboutus.html">Click to enter</a>
+				<br>
+				<a href="videodemo.html">Take Me To The Video Demo</a>
+			</div>
+		</div>
+			
+		<video autoplay class="vid-size">	
+		
+			<source onloadstart="this.volume=0.1" src="assets/videos/thewall.mp4"  type="video/mp4" >
+		
+		</video>
+		
+		
+		
+	</div>
+	
+
+</body>
+</html>
