@@ -76,6 +76,15 @@ nav li a {
 
 }
 
+
+#overlay-text{
+	position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+	text-align: center;
+}
+
 .vid-button{
 	position: absolute;
 	padding-left: 50%;
@@ -479,7 +488,7 @@ nav li a {
 		margin: 0;
 	}
 
-	
+
 
 
 }
